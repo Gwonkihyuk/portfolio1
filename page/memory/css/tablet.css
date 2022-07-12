@@ -1,0 +1,70 @@
+@media all and (min-width:768px){
+
+
+
+
+
+
+
+
+    .row2menu{
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row2more a{
+        font-size: 18px;
+    }
+
+    .row2box1 ,.row2box2 , .row2bo3{
+        width: 100%;
+    }
+
+    .con1, .con2, .con3, .con4, .con5, .con6 , .row3img1 , .row3img2 {
+
+        width: 495px;
+        height: 465px;
+
+    }
+
+
+
+    .row3item1 , .row3item2{
+        display: flex;
+        justify-content: center;
+        transition: all 1s;
+    }
+
+    .row3item1 h3, .row3item2 h3{
+        margin-top: 200px;
+        font-size: 18px;
+    }
+    .row3item1 p, .row3item2 p{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+
+
+    .row3item3>a>div{
+        font-size: 24px;
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .row3boxL1, .row3boxL2 {
+        width: 100%;
+    }
+
+    .review{
+        display: flex;
+    }
+
+    .rv1{
+        height: 400px;
+    }
+
+
+
+}

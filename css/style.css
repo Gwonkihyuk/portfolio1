@@ -1,0 +1,579 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+
+
+.topheader{
+    width: 20%;
+    height: 200px;
+    font-family: 'Nanum Gothic';
+    text-align: center;
+    line-height: 200px;
+    position: fixed;
+    border-bottom: solid 1px #222;
+    border-right:solid 1px #222;
+
+
+}
+
+
+
+.menu{
+    margin-top: 200px;
+    width: 20%;
+    position: fixed;
+    height: 100%;
+    border-right:solid 1px #222;
+    justify-content: center;
+
+}
+
+.menu button{
+    text-align: center;
+    position: relative;
+    top:30%;
+    transform: translateY(-50%);
+    display: flex;
+    left:50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+
+    font-size: 18px;
+    color:#114379;
+    font-family: 'Pretendard';
+
+}
+
+.wrap{
+    margin-left: 20%;
+}
+
+
+
+
+
+.menu button:nth-child(1){
+    margin-top: 0;
+}
+
+.on{
+    border-bottom:solid 1px #114379;
+    font-weight: 900;
+
+}
+
+
+header{
+    width: 100%;
+}
+
+.wrap section{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+}
+.Main{
+    background-color: rgba(0, 0, 0, 0.01);;
+}
+.Profile{
+    background-color: rgba(0, 0, 0, 0.02);
+
+}
+
+
+
+
+.my{
+    display: flex;
+    height: 300px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+}
+
+
+
+.my .img{
+    background-image: url(../images/myimg.png);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.my .txt{
+    width: 300px;
+    height: 300px;
+
+}
+
+.probox{
+    width: 1320px;
+
+}
+
+
+
+.probox .my{
+    justify-content: center;
+}
+
+
+
+.abil{
+    display: flex;
+    justify-content: center
+    
+}
+
+.abil>div{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.abil>div:first-child{
+    margin-left: 0;
+}
+
+.abil .img1{
+    background-image: url(../images/AE.jpg);
+
+}
+.abil .img2{
+    background-image: url(../images/AI.jpg);
+
+}
+.abil .img3{
+    background-image: url(../images/pr.jpg);
+
+}
+.abil .img4{
+    background-image: url(../images/JS.PNG);
+
+}
+.abil .img5{
+    background-image: url(../images/Photoshop.jpg);
+
+}
+.abil .img6{
+
+    background-image: url(../images/HTML.PNG);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Wep{
+
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.weplist li.active{
+    font-weight: bold;
+
+}
+
+.designmenu li.active{
+    font-weight: bold;
+}
+
+.weplist li::after{
+    margin-left: 10px;
+    margin-right: 10px;
+    content: '|';
+    font-weight: bold;
+}
+
+
+
+.weplist li:last-child::after{
+
+    content: none;
+}
+
+
+
+.con>div{
+    display: none;
+}
+
+.designbox>div{
+    display: none;
+}
+
+.designbox>div:nth-child(1){
+    display: block;
+}
+
+.con>div:nth-child(1){
+    display: block;
+}
+
+.con1{
+    background-image: url(../images/web1.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: 40%;
+    background-position: 90% 0;
+}
+
+.con1 .txt{
+    
+    text-align: center;
+    width: 500px;
+    height: 300px;
+}
+.con2{
+    background-image: url(../images/web2.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: 40%;
+    background-position: 90% 0;
+}
+
+.con2 .txt{
+    
+    text-align: center;
+    width: 500px;
+    height: 300px;
+}
+.con3{
+    background-image: url(../images/web3.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: 40%;
+    background-position: 90% 0;
+}
+
+.con .txt{
+
+    font-family: 'Nanum Gothic';
+}
+
+.con3 .txt{
+    
+    text-align: center;
+    width: 500px;
+    height: 300px;
+}
+
+.con h2{
+    color:#333;
+}
+
+.con p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color:#444;
+}
+
+.txtbtn button{
+
+    border:solid #555 1px;
+    padding :4px;
+    border-radius: 10px;
+    
+}
+
+.txtbtn button:hover{
+    background-color: #114379;
+    color:#fff;
+    font-weight: 900;
+}
+
+
+.Design{
+    background-color: rgba(0, 0, 0, 0.04);
+
+}
+
+.designmenu{
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.designmenu li{
+    margin-top: 50px;
+    font-family: pretendard;
+    font-size: 28px;
+
+}
+
+
+
+
+
+.imgL{
+    width: 1320px;
+}
+
+
+.imgbox .box1, .imgbox .box2{
+    
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+
+
+
+.imgL>div>div>div img{
+    width: 350px;
+    height: 350px;
+    background-color: #222;
+}
+
+
+
+
+.view{
+    display: none;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.btnClose{
+    width: 50px;
+    height: 50px;
+    background-color: unset;
+    border: 0;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.btnClose span{
+    display: block;
+    width: 22px;
+    height: 4px;
+    position: absolute;
+    top:23px;
+    left: 14px;
+    background-color: #fff;
+}
+
+.btnClose span:first-child{
+    transform: rotate(45deg);
+}
+
+.btnClose span:last-child{
+    transform: rotate(-45deg);
+}
+
+.wrapClose{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+figure{
+    z-index: 3;
+    width: 900px;
+
+    background-color: indianred;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+figure img{
+    width: 100%;
+    display: block;
+}
+
+.txtBox{
+    z-index: 5;
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.About{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+
+.wrap h1{
+    font-size: 38px;
+    text-align: center;
+    font-family: pretendard;
+    margin-top: 100px;
+}
+
+.weplist{
+    margin-top: 50PX;
+    margin-bottom: 200px;
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    font-size: 24px;
+    font-family: pretendard;
+    color:#222;
+
+}
+
+.video{
+    background: var(--bg-color);
+    margin-top: 0.5em;
+    border-radius: 0.5em;
+}
+.video .videoWrap{
+  padding:2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.vidCard{
+    width:49%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1em;
+    background-color:#fff;
+
+}
+
+.vidThumb{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 100px;
+}
+
+.vidThumb video{
+    width: 100%;
+    height: auto;
+    position:absolute;
+    left:50%;
+    top:0;
+    transform: translateX(-50%);
+}
+
+.vidTit{
+    padding:0.5em;
+    box-sizing: border-box;
+}
+
+
+.show{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    top: 0;
+    left:0;
+    z-index: 999;
+    display: none;
+}
+
+.showCloseWrap{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.videoBox{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.videoTxt{
+    width: 100%;
+    position: absolute;
+    left:0;
+    bottom: 40px;
+    color: #fff;
+}
+
+.videoTxt h4{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.videoTxt p{
+    font-size: 14px;
+}
+
+.videoClose{
+    font-size: 14px;
+    text-decoration: underline;
+    position: absolute;
+    top:20px;
+    right: 20px;
+    color:#fff;
+}
+
+
+
+
+
